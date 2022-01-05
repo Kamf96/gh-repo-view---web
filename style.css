@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  background-color: #dce4e2;
+  color: gray;
+  font-family: 'Open Sans', serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h1  {
+  color: #7C99AC;
+  line-height: 1.2;
+  /* font-family: 'Poppins'; */
+}
+
+h2 {
+  color: #4FBDBA;
+  font-family: 'Poppins';
+  font-size: 23px;
+  line-height: 1.2;
+}
+
+a {
+  color: #086E7D;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 9px rgb(0 0 0 / 10%);
+  border: 2px solid #e0f7fa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+    background: #6B72E1;
+    padding: 13px 15px;
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: black;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li a {
+  font-size: 35px;
+  color: lightgray;
+}
+
+.list-inline li a:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
